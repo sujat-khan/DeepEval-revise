@@ -1,0 +1,8 @@
+deepeval
+python-dotenv
+pytest
+openai
+pywin32; sys_platform == 'win32'
+langchain-groq
+pytest-asyncio
+langchain-groq

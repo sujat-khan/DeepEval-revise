@@ -1,0 +1,45 @@
+# Environment and Secrets
+.env
+.env.*
+!.env.example
+
+# Virtual Environments
+myvenv/
+.venv/
+venv/
+ENV/
+env/
+
+# DeepEval config, cache, and telemetry
+.deepeval/
+.deepeval
+.deepeval-cache.json
+.deepeval_telemetry.txt
+temp_test_run_data.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Caches and Notebooks
+.cache/
+.ipynb_checkpoints/
+
+# IDE and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
